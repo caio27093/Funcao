@@ -1,0 +1,13 @@
+﻿@model WebAtividadeEntrevista.Models.ClienteModel
+@{ ViewBag.Title = "Cadastrar Cliente"; }
+@Scripts.Render( "~/bundles/beneficiarios" )
+@section scripts{
+    <script>
+        var urlPost = '@Url.Action("Incluir", "Cliente", new { area = "" })';
+        ModalBeneficiario();
+    </script>
+    @Scripts.Render( "~/bundles/clientes" )
+    @Scripts.Render( "~/bundles/jquery-mask" )
+}
+<h2>@Html.Raw( ViewBag.Title )</h2>
+@Html.Partial( "Forms" )
