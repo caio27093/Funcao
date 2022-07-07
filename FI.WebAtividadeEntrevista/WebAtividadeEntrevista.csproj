@@ -245,6 +245,9 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\Beneficiarios\FI.AltBeneficiarios.js" />
+    <Content Include="Scripts\Beneficiarios\FI.Beneficiarios.js" />
+    <Content Include="Scripts\Beneficiarios\FI.ListBeneficiarios.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\jquery-mask.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -435,12 +438,6 @@
     <Content Include="Views\Cliente\Forms.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FI.AtividadeEntrevista\FI.AtividadeEntrevista.csproj">
-      <Project>{38efe996-02d9-4d78-b084-f3b5602e6ed2}</Project>
-      <Name>FI.AtividadeEntrevista</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
   </ItemGroup>
   <ItemGroup>
@@ -456,6 +453,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\themes\base\minified\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FI.AtividadeEntrevista\FI.AtividadeEntrevista.csproj">
+      <Project>{38efe996-02d9-4d78-b084-f3b5602e6ed2}</Project>
+      <Name>FI.AtividadeEntrevista</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
