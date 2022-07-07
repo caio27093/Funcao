@@ -45,6 +45,15 @@ namespace WebAtividadeEntrevista
             bundles.Add ( new StyleBundle ( "~/bundles/jquery-mask" ).Include (
                       "~/Scripts/jquery-mask.js" ) );
 
+            bundles.Add ( new ScriptBundle ( "~/bundles/beneficiarios" ).Include (
+                      "~/Scripts/Beneficiarios/FI.Beneficiarios.js" ) );
+
+            bundles.Add ( new ScriptBundle ( "~/bundles/listBeneficiarios" ).Include (
+                      "~/Scripts/Beneficiarios/FI.ListBeneficiarios.js" ) );
+
+            bundles.Add ( new ScriptBundle ( "~/bundles/altBeneficiarios" ).Include (
+                      "~/Scripts/Beneficiarios/FI.AltBeneficiarios.js" ) );
+
         }
     }
 }
